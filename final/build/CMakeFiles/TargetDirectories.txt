@@ -1,0 +1,3 @@
+/uhome/home/lingege32/course/parallelProgramming/final/build/CMakeFiles/rebuild_cache.dir
+/uhome/home/lingege32/course/parallelProgramming/final/build/CMakeFiles/ppFinal.dir
+/uhome/home/lingege32/course/parallelProgramming/final/build/CMakeFiles/edit_cache.dir

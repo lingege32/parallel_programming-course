@@ -1,0 +1,11 @@
+init time: 1.4211850000   exeTime  16.4311590000 
+init time: 1.4180130000   exeTime  16.3304320000 
+init time: 1.4070850000   exeTime  16.5237700000 
+init time: 1.4171180000   exeTime  16.4719710000 
+init time: 1.4094960000   exeTime  16.7228670000 
+init time: 1.4087920000   exeTime  16.5498510000 
+init time: 1.4036130000   exeTime  16.5074130000 
+init time: 1.3016380000   exeTime  16.1999240000 
+init time: 1.4339560000   exeTime  16.1871070000 
+init time: 1.4248440000   exeTime  16.2347770000 
+ 164.15

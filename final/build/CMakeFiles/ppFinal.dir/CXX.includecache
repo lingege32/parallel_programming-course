@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/cnnModel.hpp
+parser.hpp
+.././include/parser.hpp
+
+.././include/parser.hpp
+vector
+-
+
+/uhome/home/lingege32/course/parallelProgramming/final/src/cnnModel.cpp
+cnnModel.hpp
+/uhome/home/lingege32/course/parallelProgramming/final/src/cnnModel.hpp
+iostream
+-
+iomanip
+-
+cmath
+-
+

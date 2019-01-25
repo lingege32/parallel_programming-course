@@ -1,0 +1,14 @@
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 1 10000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 2 10000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 4 10000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 8 10000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 1 100000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 2 100000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 4 100000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 8 100000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 1 1000000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 2 1000000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 4 1000000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 8 1000000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 10 1000000000
+/usr/bin/time -f "real: %E user: %U system: %S" ./pi 20 1000000000

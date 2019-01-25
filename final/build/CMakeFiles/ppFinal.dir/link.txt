@@ -1,0 +1,1 @@
+/uhome/home/lingege32/local/gcc-7.2.0/bin/c++    -rdynamic CMakeFiles/ppFinal.dir/src/cnnModel.cpp.o CMakeFiles/ppFinal.dir/src/main.cpp.o CMakeFiles/ppFinal.dir/src/parser.cpp.o  -o ppFinal 

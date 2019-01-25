@@ -1,0 +1,97 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BENCHMARK	Makefile	/^BENCHMARK=cg$/;"	m
+BENCHMARKU	Makefile	/^BENCHMARKU=CG$/;"	m
+DATASIZE	Makefile	/^DATASIZE=MEDIUMN$/;"	m
+NA	globals.h	15;"	d
+NA	globals.h	25;"	d
+NA	globals.h	5;"	d
+NAZ	globals.h	34;"	d
+NITER	globals.h	18;"	d
+NITER	globals.h	28;"	d
+NITER	globals.h	8;"	d
+NONZER	globals.h	16;"	d
+NONZER	globals.h	26;"	d
+NONZER	globals.h	6;"	d
+NZ	globals.h	33;"	d
+OBJS	Makefile	/^OBJS = cg.o \\$/;"	m
+PROGRAMNAME	Makefile	/^PROGRAMNAME=cg$/;"	m
+RCOND	globals.h	19;"	d
+RCOND	globals.h	29;"	d
+RCOND	globals.h	9;"	d
+SHELL	Makefile	/^SHELL=\/bin\/sh$/;"	m
+SHIFT	globals.h	17;"	d
+SHIFT	globals.h	27;"	d
+SHIFT	globals.h	7;"	d
+T_bench	globals.h	37;"	d
+T_conj_grad	globals.h	38;"	d
+T_init	globals.h	36;"	d
+T_last	globals.h	39;"	d
+VALID_RESULT	globals.h	10;"	d
+VALID_RESULT	globals.h	20;"	d
+VALID_RESULT	globals.h	30;"	d
+__RANDDP_H__	common/randdp.h	2;"	d
+__TIMERS_H__	common/timers.h	2;"	d
+__TYPE_H__	common/type.h	2;"	d
+a	cg.c	/^static double a[NZ];$/;"	v	file:
+acol	cg.c	/^static int acol[NAZ];$/;"	v	file:
+address_t	common/wtime_sgi64.c	/^typedef unsigned long address_t;$/;"	t	file:
+aelt	cg.c	/^static double aelt[NAZ];$/;"	v	file:
+amult	cg.c	/^static double amult;$/;"	v	file:
+arow	cg.c	/^static int arow[NA];$/;"	v	file:
+base_counter	common/wtime_sgi64.c	/^volatile iotimer_t *iotimer_addr, base_counter;$/;"	v
+colidx	cg.c	/^static int colidx[NZ];$/;"	v	file:
+conj_grad	cg.c	/^static void conj_grad(int colidx[],$/;"	f	file:
+cycleval	common/wtime_sgi64.c	/^unsigned int cycleval;$/;"	v
+dcomplex	common/type.h	/^} dcomplex;$/;"	t	typeref:struct:__anon2
+elapsed	common/c_timers.c	/^static double start[64], elapsed[64];$/;"	v	file:
+elapsed_time	common/c_timers.c	/^static double elapsed_time( void )$/;"	f	file:
+false	common/type.h	/^typedef enum { false, true } logical;$/;"	e	enum:__anon1
+firstcol	cg.c	/^static int firstcol;$/;"	v	file:
+firstrow	cg.c	/^static int firstrow;$/;"	v	file:
+icnvrt	cg.c	/^static int icnvrt(double x, int ipwr2)$/;"	f	file:
+imag	common/type.h	/^  double imag;$/;"	m	struct:__anon2
+iotimer_addr	common/wtime_sgi64.c	/^volatile iotimer_t *iotimer_addr, base_counter;$/;"	v
+iotimer_t	common/wtime_sgi64.c	/^typedef unsigned long iotimer_t;$/;"	t	file:
+iv	cg.c	/^static int iv[NA];$/;"	v	file:
+lastcol	cg.c	/^static int lastcol;$/;"	v	file:
+lastrow	cg.c	/^static int lastrow;$/;"	v	file:
+logical	common/type.h	/^typedef enum { false, true } logical;$/;"	t	typeref:enum:__anon1
+main	cg.c	/^int main(int argc, char *argv[])$/;"	f
+makea	cg.c	/^static void makea(int n,$/;"	f	file:
+max	common/type.h	12;"	d
+min	common/type.h	11;"	d
+naa	cg.c	/^static int naa;$/;"	v	file:
+nzz	cg.c	/^static int nzz;$/;"	v	file:
+p	cg.c	/^static double p[NA+2];$/;"	v	file:
+q	cg.c	/^static double q[NA+2];$/;"	v	file:
+r	cg.c	/^static double r[NA+2];$/;"	v	file:
+randlc	common/randdp.c	/^double randlc( double *x, double a )$/;"	f
+real	common/type.h	/^  double real;$/;"	m	struct:__anon2
+resolution	common/wtime_sgi64.c	/^double resolution;$/;"	v
+rowstr	cg.c	/^static int rowstr[NA+1];$/;"	v	file:
+sparse	cg.c	/^static void sparse(double a[],$/;"	f	file:
+sprnvc	cg.c	/^static void sprnvc(int n, int nz, int nn1, double v[], int iv[])$/;"	f	file:
+start	common/c_timers.c	/^static double start[64], elapsed[64];$/;"	v	file:
+timer_clear	common/c_timers.c	/^void timer_clear( int n )$/;"	f
+timer_init	common/wtime_sgi64.c	/^void timer_init() $/;"	f
+timer_read	common/c_timers.c	/^double timer_read( int n )$/;"	f
+timer_start	common/c_timers.c	/^void timer_start( int n )$/;"	f
+timer_stop	common/c_timers.c	/^void timer_stop( int n )$/;"	f
+timeron	cg.c	/^static logical timeron;$/;"	v	file:
+tran	cg.c	/^static double tran;$/;"	v	file:
+true	common/type.h	/^typedef enum { false, true } logical;$/;"	e	enum:__anon1
+vecset	cg.c	/^static void vecset(int n, double v[], int iv[], int *nzv, int i, double val)$/;"	f	file:
+vranlc	common/randdp.c	/^void vranlc( int n, double *x, double a, double y[] )$/;"	f
+wtime	common/wtime.c	/^void wtime(double *t)$/;"	f
+wtime	common/wtime.h	11;"	d
+wtime	common/wtime.h	7;"	d
+wtime	common/wtime.h	9;"	d
+wtime	common/wtime_sgi64.c	/^void wtime(double *time) $/;"	f
+wtime_	common/wtime_sgi64.c	/^void wtime_(double *time) $/;"	f
+x	cg.c	/^static double x[NA+2];$/;"	v	file:
+z	cg.c	/^static double z[NA+2];$/;"	v	file:

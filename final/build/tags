@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CNNMODEL_HPP	include/cnnModel.hpp	2;"	d
+PARSER_HPP	include/parser.hpp	2;"	d
+cnnModelC	include/cnnModel.hpp	/^class cnnModelC$/;"	c
+cnnModelC	src/cnnModel.cpp	/^cnnModelC::cnnModelC(parserC* p)$/;"	f	class:cnnModelC
+dotMultiply	src/cnnModel.cpp	/^void cnnModelC::dotMultiply(double* rhm,double* lhm,double* ans,int size)$/;"	f	class:cnnModelC
+dump	src/parser.cpp	/^void parserC::dump()$/;"	f	class:parserC
+getDerived	src/cnnModel.cpp	/^void cnnModelC::getDerived(double* output,double* input,int size)$/;"	f	class:cnnModelC
+initInputData	src/cnnModel.cpp	/^void cnnModelC::initInputData(int whichClass, int iterData, double* inputData)$/;"	f	class:cnnModelC
+mCol_	include/cnnModel.hpp	/^		int mCol_;$/;"	m	class:cnnModelC
+mCol_	include/parser.hpp	/^		int					mCol_;$/;"	m	class:parserC
+mFileName_	include/parser.hpp	/^		const char* const   mFileName_;$/;"	m	class:parserC
+mNumOfLev1_	include/cnnModel.hpp	/^		int mNumOfLev1_;$/;"	m	class:cnnModelC
+mNumOfLev2_	include/cnnModel.hpp	/^		int mNumOfLev2_;$/;"	m	class:cnnModelC
+mPcaData_	include/cnnModel.hpp	/^		std::vector<double> mPcaData_;$/;"	m	class:cnnModelC
+mPcaData_	include/parser.hpp	/^		std::vector<double> mPcaData_;$/;"	m	class:parserC
+mRow_	include/cnnModel.hpp	/^		int mRow_;$/;"	m	class:cnnModelC
+mRow_	include/parser.hpp	/^		int					mRow_;$/;"	m	class:parserC
+mTrainSize_	include/cnnModel.hpp	/^		int mTrainSize_;$/;"	m	class:cnnModelC
+mWeightVec1_	include/cnnModel.hpp	/^		double* mWeightVec1_;$/;"	m	class:cnnModelC
+mWeightVec2_	include/cnnModel.hpp	/^		double* mWeightVec2_;$/;"	m	class:cnnModelC
+mWeightVec3_	include/cnnModel.hpp	/^		double* mWeightVec3_;$/;"	m	class:cnnModelC
+main	src/main.cpp	/^int main(int argc,char* argv[])$/;"	f
+matrixAssign	src/cnnModel.cpp	/^void cnnModelC::matrixAssign(double* lhm,double* rhm,int row,int col)$/;"	f	class:cnnModelC
+matrixMinus	src/cnnModel.cpp	/^void cnnModelC::matrixMinus(double* lhm,double* rhm,double* ans,int size)$/;"	f	class:cnnModelC
+matrixMultiply	src/cnnModel.cpp	/^void cnnModelC::matrixMultiply(double* lhm,double* rhm,double* ans,int row,int mid, int col)$/;"	f	class:cnnModelC
+modelTraining	src/cnnModel.cpp	/^void cnnModelC::modelTraining()$/;"	f	class:cnnModelC
+parserC	include/parser.hpp	/^class parserC$/;"	c
+parserC	src/parser.cpp	/^parserC::parserC(const char* const fileName): mFileName_{fileName}$/;"	f	class:parserC
+runParse	src/parser.cpp	/^void parserC::runParse()$/;"	f	class:parserC
+showMatrix	src/cnnModel.cpp	/^void cnnModelC::showMatrix(double* data,int row,int col)$/;"	f	class:cnnModelC
+showPcaData	src/cnnModel.cpp	/^void cnnModelC::showPcaData()$/;"	f	class:cnnModelC
+sigmaExp	src/cnnModel.cpp	/^void cnnModelC::sigmaExp(double* output,int size)$/;"	f	class:cnnModelC
+sigmoidFun	src/cnnModel.cpp	/^void cnnModelC::sigmoidFun(double* zeta,int size)$/;"	f	class:cnnModelC
+transferOutput	src/cnnModel.cpp	/^void cnnModelC::transferOutput(double* output,int size)$/;"	f	class:cnnModelC
+vector	include/parser.hpp	/^		auto data() -> std::vector<double>&&; \/\/pointer become nullptr$/;"	m	class:parserC::std
+~cnnModelC	src/cnnModel.cpp	/^cnnModelC::~cnnModelC()$/;"	f	class:cnnModelC
+~parserC	src/parser.cpp	/^parserC::~parserC()$/;"	f	class:parserC
